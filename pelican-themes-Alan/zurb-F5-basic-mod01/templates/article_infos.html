@@ -1,0 +1,7 @@
+<h6 class="subheader" title="{{ article.date.isoformat() }}">{{ article.locale_date }},
+    By {{ article.author }}
+</h6>
+
+{% import 'translations.html' as translations with context %}
+{{ translations.translations_for(article) }}
+

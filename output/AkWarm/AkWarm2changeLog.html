@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <title>AkWarm Change Log</title>
+
+    <link rel="stylesheet" href="http://analysisnorth.com/theme/css/normalize.css" />
+    <link rel="stylesheet" href="http://analysisnorth.com/theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="http://analysisnorth.com/theme/css/style.css" />
+    <link rel="stylesheet" href="http://analysisnorth.com/theme/css/pygments.css" />	
+    <script src="http://analysisnorth.com/theme/js/custom.modernizr.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-48521202-1', 'analysisnorth.com');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+<nav>
+<div class="top-bar">
+<div class="row">
+    <div class="large-9 large-centered columns">
+	    <h1><a href="http://analysisnorth.com"><img src="http://analysisnorth.com/theme/images/logo.png" width="72" height="100" border="0" alt="">&nbsp;<img src="http://analysisnorth.com/theme/images/banner.jpg" width="620" height="100" border="0" alt=""></a></h1>
+    </div>
+</div>
+</div>
+
+<!-- Show menu items and pages -->
+<div class="row">
+<div class="large-9 columns">
+    <ul class="button-group navigation">
+    <li><a href="/" class="button secondary small">Home</a></li>
+    <li><a href="/AkWarm/AkWarm2download.html" class="button secondary small">AkWarm</a></li>
+    <li><a href="/pages/services.html" class="button secondary small">Services</a></li>
+    <li><a href="/pages/projects.html" class="button secondary small">Projects</a></li>
+    <li><a href="/category/articles.html" class="button secondary small">Articles</a></li>
+    <li><a href="/enphase/solar_summary.html" class="button secondary small">Solar Data</a></li>
+    <li><a href="/pages/about.html" class="button secondary small">About</a></li>
+    <li><a href="/pages/contact.html" class="button secondary small">Contact</a></li>
+
+    </ul>
+</div>
+</div>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns">
+        
+    <h3>AkWarm Change Log</h3>
+    
+    <p>This page describes the changes that have occurred in the various releases of
+AkWarm 2. The versions are listed from the most recent to the oldest.</p>
+<h4>Version 2.10.0 Beta (March 27, 2019) and Final (April 16, 2019)</h4>
+<ol>
+<li>New Energy Library.</li>
+<li>New formula for required ventilation to meet new BEES/IECC requirements.</li>
+<li>Additional input for 'Living Space' blower door test result.</li>
+<li>Additional input for living space/garage common wall area.</li>
+<li>Minor formatting changes on Rating Certificate report.</li>
+<li>Require As-Is and Post ratings to be uploaded to ARIS before printing as 'official'.</li>
+<li>Fix bug for combo-type DHW efficiencies.</li>
+<li>Update HomeEnergyScore interface to use new API.</li>
+</ol>
+<h4>Version 2.9.0 Beta (April 19, 2018) and Final (April 30, 2018)</h4>
+<ol>
+<li>For official BEES, require a client's email. Add a checkbox for no email service.</li>
+<li>Prompt user to enter a price per ton of wood pellets, if this type of system is selected.</li>
+<li>Several changes to the spot and whole-house ventilation section of the Air tab.</li>
+<li>For older files that did not have a Max. Flow Rate: On opening in the new version, populate the Mechanical Ventilation Flow Rate from the Design Heat Loss Inputs section into the Max Flow Rate section of the Mechanical Ventilation on the Air Tab.</li>
+<li>Add identification for 'high temp' and 'low temp' distribution for hydronic heating to match IOR recommendation.</li>
+<li>Side Arm Efficiency: if a side-arm unit is selected, auto-populate the energy factor based on the standard de-rate (EF=Primary System Efficiency -5%); Flag files for review if user override value is input.  Include popup if user entry ‘justification of sidearm efficiency required if library value is not used'.</li>
+<li>Allow multiple file uploads at a time when using 'Add Image'.</li>
+<li>Improved hpxml and HomeEnergyScore integration (still in beta).</li>
+<li>Fix AHRI Links on Heater and DHW tabs (the old links were broken).</li>
+</ol>
+<h4>Version 2.8.0 Beta (Sepember 7, 2017) and Final (September 27, 2017)</h4>
+<ol>
+<li>Added an Above-Grade Masonry Wall shell component.</li>
+<li>Disabled the "Unconditioned Space" option for DHW location.</li>
+<li>Added a "Garage Heater" option for HealthSafetyAppliance inspections</li>
+<li>Disabled the Oven and Range CO input boxes for non-oven HealthSafetyAppliances.</li>
+<li>Added a (beta) menu option to export the current AkWarm file to hpxml. Most, but not all, of the content from the AkWarm inputs are mapped to the hpxml output. We are interested in feedback from users about if/how this is used and could be improved.</li>
+<li>Added a (beta) menu option and dialog to submit the current AkWarm file through the HomeEnergyScore API. This feature has not yet been approved for producing official HomeEnergyScore labels, and the use of this feature requires a username/password. Contact AHFC if you are interested in helping to test this feature.</li>
+</ol>
+<h4>Version 2.7.1 (March 28, 2017)</h4>
+<ol>
+<li>New Climate Data in Energy Library</li>
+<li>Updated Fuel and Electricity Prices in Energy Library</li>
+<li>Ability to itemize a subset of all lights/appliance loads and have AkWarm fill in the remaining electricity consumption based on standard AkWarm Low/Medium/High Appliance usage.</li>
+<li>Bug fix to code that determines whether a file has changed or not.</li>
+<li>Updated error handling for ARIS uploads.</li>
+<li>Modify Ventilation warning language.</li>
+<li>Modify the language in the "Additional Information" section to remove the WH EF notification.</li>
+<li>Modify the language in the CSR for Wx files to be "Assessor" and "Weatherization Operations Manual".</li>
+</ol>
+<h4>Version 2.6.1 (August 12, 2016)</h4>
+<ol>
+<li>Files must now be first uploaded to ARIS before they can be Saved as Official.</li>
+<li>Energy savings in MMBtu are now shown on the Audit Report for AkWarm-Commercial.</li>
+<li>If an SHGC value is manually entered, a corresponding U-Value must also be manually entered.</li>
+<li>Miscellaneous changes related to BEES compliance.</li>
+<li>A new August 9, 2016 Energy Library with updated Fuel and Electric prices is included.</li>
+</ol>
+<h4>Version 2.5.3 (March 10, 2016)</h4>
+<ol>
+<li>Renewable Energy Systems are now included in the energy analysis and Energy Rating.  Both thermal and electrical production systems can be included.</li>
+<li>Substituted a BEES-specific Rating certificate for BEES ratings.</li>
+<li>Added a Combustion Safety Report and refined the Combustion Safety Inputs, ensuring that tests are present for all combustion appliances.</li>
+<li>Remove the prior PUR-101 report and the BEES Checklist.</li>
+<li>Implemented tests for Spot Ventilation that are required for BEES ratings.</li>
+<li>Require a user-entered U-Value for a window if a user-entered SHGC is provided.</li>
+<li>Fixed a bug related to HRVs that caused them to be evaluated as Unbalanced ventilation systems in certain circumstances.</li>
+<li>Fixed the AkWarm Installer to work properly on computers that have not had a prior version of AkWarm installed.</li>
+<li>Changed the Ductwork insulation level to R-19 (previously was R-3).</li>
+<li>Allowed Self-Generation as a choice for every location.</li>
+<li>Added the 2016-03-07 library with new fuel/utility prices and four new garage doors.</li>
+</ol>
+<h4>Version 2.4.1 (April 1, 2015)</h4>
+<ol>
+<li>For any rating that uses the new 3/30/2015 Energy Library or a future library, the domestic hot water usage assumption was changed to 15.2 gallons/person/day.  The old assumption of 20.0 gallons/person/day will still be used for old ratings so that their rating score will be unaffected.</li>
+<li>The Energy Star Home Performance logo was added to the Rating Certificate for ratings other than BEES and Ratings from Plans.</li>
+<li>If the heating system is more than 25% oversized in a BEES rating, a BEES Warning is issued, as opposed to a BEES failure.</li>
+<li>The Setback Thermostat BEES compliance test was removed (including removal from the checklist).</li>
+<li>Three other items were removed from the required BEES checklist: air handler leakage test, Energy Efficiency certificate posting, high efficiency lighting.</li>
+<li>Editing of the summary improvements table in the Improvement Options Report was disabled.</li>
+<li>The required amount of ventilation for ASHRAE 62.2 compliance is displayed in the Ventilation Inputs section.</li>
+<li>Fixed a bug that erroneously reverted changes to the "Ventilation System has controls..." checkbox.</li>
+<li>A new installer was created that should support remote install.</li>
+<li>The 3/30/2015 Energy Library was added with updated Fuel and Electric prices and an increase in three DHW Energy Factors to comply with RESNET DHW efficiency minimums.</li>
+</ol>
+<h4>2/4/2015 Energy Library (February 4, 2015)</h4>
+<ol>
+<li>Released a new Energy Library that has two equipment choices for Steam and Hot Water District Heat.  These were inadvertantly lost after the 9/24/2013 Library.</li>
+</ol>
+<h4>Version 2.3.3.1 (December 17, 2014)</h4>
+<ol>
+<li>AkWarm-Commercial Bug Fixes<ol>
+<li>Fixed a bug that caused a crash when there were no improvements in the file or no cost-effective improvements.</li>
+<li>The Setup program failed to install the Long Audit Report template file.  Now fixed.</li>
+<li>Greatly sped up Calculate time for files that include Generic Loads.</li>
+<li>Fixed a bug that disabled the ability to edit the Lighting Equipment description when an "Other" lamp is selected.</li>
+</ol>
+</li>
+</ol>
+<h4>Version 2.3.3.0 (December 9, 2014)</h4>
+<ol>
+<li>Substantially changed the content and formatting of the PUR 101 report for BEES Ratings.</li>
+<li>For homes with mechanical ventilation systems, the maximum flow rate of the system can now be entered. This flow is then compared against the BEES required ventilation flow rate for the home.</li>
+<li>Design Heat Load Analysis<ol>
+<li>For the Primary Heating System, the user can choose to include the garage heat load and the Domestic Hot Water heat load if the primary system serves those loads.  The total load served by the primary heating system is now calculated and displayed in the Design Heat Loss report.</li>
+<li>The domestic hot water heat load is now explicitly calculated if it is being served by the primary heating system.</li>
+<li>The main home ventilation rate can now be tied to the ventilation inputs in on the "Air" tab.</li>
+<li>The heating output capacity of the existing primary heating system can be entered, and this output is compared against the results from the Design Heat Load analysis.  The same comparison is used to determine whether the heating system complies with the 25% oversizing limit for BEES ratings.</li>
+</ol>
+</li>
+<li>Increased the estimated seasonal efficiency of ground-source heat pumps, to be more consistent with the efficiency estimation approach used for other heating systems.</li>
+<li>User entry of a window U-value now also requires entry of an SHGC value for the window, since both are available on the rating label.</li>
+<li>The default computer window size for the application has been increased due to the prevalence of high resolution screens.</li>
+<li>Edited the Improvement descriptions and the user-selectable boilerplate that is included in the Improvement Options Report.</li>
+<li>Energy Library Changes<ol>
+<li>Updated fuel and utility prices.</li>
+<li>Increased the default efficiencies for numerous heating system types to make these efficiencies more consistent with the actual savings observed from heating system retrofits.</li>
+</ol>
+</li>
+<li>Bug Fixes<ol>
+<li>When changing from a oil or gas heating system to a Heat Pump, a combustion test efficiency entered for the fuel-fired heating system would override the efficiency calculation for the heat pump, causing the efficiency used for the heat pump to be too low.  This has been fixed.</li>
+<li>Entering 0" into an arithmetic expression caused the expression to be improperly evaluated.  This has been fixed.</li>
+</ol>
+</li>
+<li>AkWarm-Commercial changes<ol>
+<li>Added Before-Improvement and After-Improvement Fuel Use to the Executive Summary of the Long Report.</li>
+<li>Added a summary table on the Improvements Results screen totaling important values for all improvements and for all cost-effective improvements. Totals are also displayed for any set of improvements that the user selects on the screen.</li>
+<li>CO2 savings were added to improvement summary tables in the long report.</li>
+</ol>
+</li>
+</ol>
+<h4>Version 2.3.2.1 (April 16, 2014)</h4>
+<ol>
+<li>Released 2014-04-11 Energy Library, which updates fuel and utility rates.  Also included in the Library are a number of air-source and ground-source heat pumps.  AkWarm now automatically adjusts heat pump efficiencies for the climate where the home is located.  A number of Heat Pump replacement improvements are included in the library.  </li>
+<li>All LED lamps in the commercial lamp table in the Energy Library were increased in efficacy to 100 lumens/Watt.</li>
+<li>Metlakatla and Larsen Bay are now designated as Special Hydro cities.</li>
+<li>A few user actions that could cause false "Did Not Calculate" warnings were fixed.</li>
+<li>A "Generic Load" model was added to the Commercial version, which allows modeling of heat-consuming end uses such as heated community water supply, heated water storage tanks, sidewalk snowmelt systems, and swimming pools.</li>
+</ol>
+<h4>Version 2.3.1.0 (September 24, 2013)</h4>
+<ol>
+<li>Changed the format of the Energy Rating Certificate.</li>
+<li>Added a PUR 101 report for BEES certification.</li>
+<li>Added Space Heating Equipment selections compatible with the District Steam and Hot Water fuel types.</li>
+</ol>
+<h4>Version 2.3.0.1 (July 1, 2013)</h4>
+<ol>
+<li>Changed the threshold for 5 star to 89 points. Added a 6 star level at 95 points. Allowed Rating Points to goes as high as 110 points.</li>
+<li>Implemented changes related to the 2012 BEES standard, including setting compliance to the 5 star 89 point level, requiring air tightness of less than 4 ACH at 50 Pa, and providing a checklist of mandatory items for compliance.</li>
+<li>Changed the Southcentral Alaska reference house to have the same reference R-value for walls and floors as Southeast Alaska.</li>
+<li>Added an Energy Efficiency Sticker report.</li>
+<li>Fixed a bug that caused an erroneous setting of the "Did Not Calculate Flag" in the AkWarm file.</li>
+<li>Fixed a bug in the Design Heat Loss section that could crash AkWarm.</li>
+<li>Fixed a bug that affected AkWarm-Commerical files containing schedules with a date that only occurs during Leap Years.</li>
+</ol>
+<h4>Version 2.2.0.4 (August 14, 2012)</h4>
+<ol>
+<li>Fixed a bug that caused the Rating Date (Residential) and the Audit Date (Commercial) to display as today's date instead of the actual date previously entered by the user.</li>
+<li>Clarified the description of results in the Residential Design Heat Loss Report.</li>
+<li>Added the 8/6/2012 Energy Library with updated fuel and utility prices.</li>
+</ol>
+<h4>Version 2.2.0.3 (May 29, 2012)</h4>
+<ol>
+<li>Added checkbox for identfiying whether a storm door is installed. Prior to this feature, the Energy Library was forced to contain many combinations of door types both with and without storm doors.</li>
+<li>Added inputs for directly entering certified U-values of Entry Doors and Garage Doors.</li>
+<li>For the Residential software only:<ol>
+<li>Included detailed inputs and a new report for calculating the Design Space Heating Load for the home.</li>
+<li>Garage components can now be entered at Garage temperature instead of Living Space temperature. This improves the accuracy of the energy estimates, design heat loss estimates, and improvement savings estimates while not affecting the rating score assigned to the home.</li>
+<li>Added inputs to allow for the recording of CO and pressure health and safety measurements for combustion appliances.</li>
+<li>Added inputs and graphs to allow the user to compare actual fuel and electric usage to the fuel usage predicted by AkWarm.</li>
+</ol>
+</li>
+<li>For the Commercial software only:<ol>
+<li>Added the ability to specify operation and maintenance savings and improvement lifetime for Ventilation improvements.</li>
+<li>Added the Actual Fuel Use versus AkWarm-predicted Fuel Use graphs to an appendix in the Long Energy Audit Report.</li>
+<li>Software now allows improvement lives up to 50 years. Prior limit was 30 years.</li>
+<li>If maintenance cost savings are entered for an improvement, that input is shown in the Short and Long Audit Reports.</li>
+<li>Added a feature to fill out a custom Excel template with data from AkWarm. This feature can be used to create custom graphs and tables using AkWarm inputs and calculated results.</li>
+<li>Added the ability to export an AkWarm file to XML format, a standard format readable by many other software packages.</li>
+<li>For determining average utility cost ($/kWh and $/ccf) in the Fuel Cost dialog, used a higher assumed usage in the calculation to produce more accurate results for rate structures with large customer charges.</li>
+</ol>
+</li>
+<li>Energy Library Changes (4/6/2012 Library)<ol>
+<li>Removed door types that included storm doors, since there is a new checkbox input for indicating whether a door has a storm door.</li>
+<li>Added "Polyurethane - Agribalance" as an insulation option.</li>
+<li>Added an uninsulated wood sectional garage door.</li>
+</ol>
+</li>
+<li>Fixed bugs, including:<ol>
+<li>Have included data validation so that entering an Improvement Life beyond the acceptable range (now 50 years) does not cause a crash.</li>
+<li>Fixed a bug causing erratic improvement calculation restults that occurred in the Commercial software when the "Uncontrolled Heat Output" input was non-zero and heat gains from disribution fans and pumps were significant.</li>
+<li>Fixed a bug that only affected results archived in ARIS; the bug resulted in multiple calculated fuel use records to be archived instead of just the last set of calculations (only affected Commercial software).</li>
+<li>Reduced the memory required to process files with large image attachments.</li>
+<li>Fixed a problem with the Log Diamter input that caused a new value not to be stored properly.</li>
+<li>Fixed a problem where Commercial Electrical Load Retrofit Life input was not visible when using large screen fonts.</li>
+<li>Put in the correct Zip Code for Kongiganak.</li>
+<li>Fixed a bug where files having a filename containing one of the five characters: &amp; &gt; &lt; ' " would always fail the "File not Calculated" test.</li>
+</ol>
+</li>
+</ol>
+<h4>Version 2.1.4 (February 27, 2012)</h4>
+<ol>
+<li>Provided a checkbox input that allows the user to identify the walls that contain windows and doors. As part of this change, the user now can tell AkWarm to deduct windows and doors from the above-grade portion of below-grade walls.</li>
+<li>Added a warning that triggers when AkWarm is exited that tells the user that they have changed inputs and not recalculated results. Leaving the AkWarm file in this state means that the inputs are not consistent with the last-calculated results.</li>
+<li>When the User brings up the dialog that allows direct entry of fuel and utility prices, the average utility prices shown were based on using 1,000 units (kWh or CCF) of the fuel per month. Now, 500 units of usage are assumed for the Residential software, and 1,500 units are assumed for the Commercial software.</li>
+<li>For the Commercial software only:<ol>
+<li>Added inputs to allow the specification of the life of the HVAC, cooking, and clothes drying improvements.</li>
+<li>Added an on-screen table and a section in the Long Audit Report to display electrical peak demand.</li>
+<li>Added Glycol and Steam as choices for the heat transfer medium for heating/cooling plants.</li>
+<li>Included internal gains as an offset in the Design Heating Load calculation.</li>
+<li>Included the AkWarm and Energy Library version numbers at the end of the Long and Short Audit reports.</li>
+<li>More accurately estimated the contribution of internal gains to cooling loads.</li>
+</ol>
+</li>
+<li>Energy Library Changes<ol>
+<li>Updated Fuel and Utility prices and price escalation rates.</li>
+<li>Additional Types of EPS rigid foam listed and updated R-values.</li>
+<li>Various Commercial door types added and inclusion of a Tree control for easier selection of the door type.</li>
+<li>More R-value levels for the rigid foam below-grade floor improvement.</li>
+<li>Added a Broken or Missing Glazing Glass type.</li>
+</ol>
+</li>
+<li>Fixed bugs, including:<ol>
+<li>The contribution of cooling plants to electrical peak demand was being overestimated in most situations. The error was largest when large wattage distribution systems were present. This bug was fixed.</li>
+<li>Fixed a bug related to the validation of shell component inputs.</li>
+</ol>
+</li>
+</ol>
+<h4>Version 2.1.3 (December 21, 2011)</h4>
+<ol>
+<li>For the Commercial software, added a menu item on the File menu to remove any schedules that are not currently being used.</li>
+<li>For the Commercial software, added an input for Maintenance Cost Savings associated with an improvement. The input is present for the HVAC improvement, all Electrical Load improvements, Cooking improvements, and Clothes Drying improvements.</li>
+<li>For the Residential software, if the user itemizes lights and appliances, they are included in the energy calculations and the analysis of improvements. Itemized lights and appliances do not affect the rating score.</li>
+<li>Included the ability to add Images and PDFs to be stored in the Residential AkWarm file.</li>
+<li>Added the ability to select the sections to include in the Residential Improvement Options report, if the report is printed from the Reports tab.</li>
+<li>Added an optional Solar Heat Gain Coefficient (SHGC) input for windows. NFRC window labels generally have this tested value.</li>
+<li>Improved the below-grade heat loss algorithm and made it more consistent with ASHRAE recommended methods.</li>
+<li>Fixed various bugs. A parial list is:<ol>
+<li>For pumps and fans using the "On Time Schedule" control strategy, the selected schedule would reset back to the first schedule in the list if the pump/fan dialog was reopened. This bug was fixed.</li>
+<li>Added the missing Refrigeration end use to the Commercial Long and Short Audit reports.</li>
+<li>Allowed the last retrofit heating plant, cooling plant, and distribution system to be fully visible on the screen.</li>
+<li>Fixed a bug that would cause an error when the same PDF file was opened twice in a row from the list of images/PDFs.</li>
+<li>Fixed a bug related to the Expand button used for the HVAC retrofit description.</li>
+<li>Fixed a bug related to the HVAC Retrofit Same as Existing checkbox causing an error.</li>
+<li>Stopped RTF reports from printing out multiple copies in some situations.</li>
+</ol>
+</li>
+</ol>
+<h4>Version 2.1.2 (September 7, 2011)</h4>
+<ol>
+<li>Added a detailed Lights and Appliances module to the Residential software that allows Raters to record individual lights and appliances in the home. Currently, the module does not affect energy use or rating calculations, and therefore is only useful for data collection purposes. In a future release, the lights and appliances information will be used in the energy use calculation.</li>
+<li>Added a detailed Energy Audit Report to the Commercial Software that provides more energy analysis results and explanatory text than the current short audit report.</li>
+<li>Added an ARIS Location ID field to the Commercial software.</li>
+<li>Includes the new 8/25/2011 Energy Library with updated fuel and utility prices.</li>
+<li>Fixed various bugs:<ol>
+<li>The View/Adjust library cost feature did not work for Setback thermostats and caused an application crash if invoked. This bug was fixed.</li>
+<li>The View/Adjust library cost feature would cause an application crash if the home/building's city was not first selected. Now, a message appears telling the user that a city must be selected prior to using the feature.</li>
+<li>Fixed a memory exhaustion error that occurred when many pumps/fans were entered. Fixing the problem also improved performance of the feature. Applied this same fix to a number of other list entry components, such as Building Spaces and Images.</li>
+<li>Allowed natural gas appliances to be used in cities without a natural gas utility in the Energy Library, since the user can directly enter a natural gas price in that situation.</li>
+</ol>
+</li>
+</ol>
+<h4>Version 2.1.1 (August 1, 2011)</h4>
+<ol>
+<li>Added a feature to view and easily adjust the improvement costs that come from the Energy Library. The feature also allows the user to deselect any R-value levels or heating efficiency levels that the user does not want to be recommended by the improvement analysis process.</li>
+<li>For Residential homes, allowed the use of Natural Gas in all communities, since the user can manually enter a Natural Gas price if one is not present in the Energy Library.</li>
+<li>For Commercial buildings, removed unused energy end uses from the end use bar graph present in the Short Audit Report.</li>
+<li>For Commercial buildings, fixed a bug related to not storing the building's energy use after improvements are applied.</li>
+</ol>
+<h4>Version 2.1.0 (July 11, 2011)</h4>
+<ol>
+<li>Combined AkWarm Commercial into the standard AkWarm Residential program so both Residential Ratings and Commercial Audits can be performed with the same program.</li>
+<li>Relative to AkWarm Residential version 2.0.6.1, the following changes were made:<ol>
+<li>The Design Heat Loss after implmentation of each improvement is included in both the Weatherization and Rater IOR reports.</li>
+<li>The Fuel Prices used in the analysis are shown on the Rating screen and in both the Weatherization and Rater IOR reports.</li>
+<li>Any fuel prices can now be entered by the User, even if those prices are present in the Energy Library. For situations where the User must enter a fuel price, the fuel price dialog does <em>not</em> appear every time the Calculate button is clicked; it is now a pop-up dialog invoked from the Client screen.</li>
+<li>The Savings-to-Investment-Ratio, SIR, is shown on the Improvements screen and in the Weatherization IOR report.</li>
+<li>The Life of each improvement measure is shown on the Weatherization IOR report.</li>
+<li>The Weatherization IOR report now includes a table showing the MMBtu of Fuel Use by Fuel Type for the As-Is home and the home with all Improvements.</li>
+<li>The "Notes to the Homeowner" are now printed in both the Weatherization and Rating IOR reports.</li>
+</ol>
+</li>
+<li>Relative to AkWarm Commercial version 1.1.1, the following changes were made:<ol>
+<li>The images in the audit report now print in the order they were entered.</li>
+<li>Fixed a bug related to losing the Notes entry for an image.</li>
+<li>Fixed a bug related to setting the air tightness improvement method of entry.</li>
+</ol>
+</li>
+<li>For both Residential and Commercial versions:<ol>
+<li>The loading of the Energy Library at program start-up is much faster.</li>
+<li>Fixed a bug in the Arithmetic Expression evaluator related to handling of inches.</li>
+</ol>
+</li>
+</ol>
+<h4>Version 2.0.6 (Apr 6, 2010)</h4>
+<ol>
+<li>Includes a report to determine whether the home complies with the Federal $2,000 Homebuilder Tax Credit program. This report is temporarily disabled, pending approval of AkWarm by the IRS.</li>
+<li>Has the ability to print the Cost by Component graph and add a note to the printed report to describe the graph. This print feature is accessed by a print button on the Cost by Component screen.</li>
+<li>Peforms Automatic Energy Library updates. If any new Energy Libraries are released, they will be automatically downloaded from the Internet and installed by the AkWarm program. AkWarm checks for updates each time it starts up, assuming an Internet connection is available.</li>
+<li>Notifies the user if the version of AkWarm is out of date. Each time AkWarm starts up, it will notify the user if a more current version of the AkWarm program is available for download. The user must still manually initiate the download and installation of the new version.</li>
+<li>Includes a cooling model to estimate the energy use of a cooling system. Cooling energy use is now incorporated into many of the AkWarm reports. The addition of the cooling model was required for determining compliance with the Federal Homebuilder Tax Credit.</li>
+<li>Makes it possible to have a Below-Grade Wall component that is totally above-grade. This allows the unique wall construction types that were only available to below-grade walls to be used for above-grade walls.</li>
+<li>Includes a Rater signature line on the Rating certificate. Fixes problems with printing overlap in the footer of the Rating certificate.</li>
+<li>Has the ability to enter a second client/homeowner name.</li>
+<li>Adds new rating types, including Weatherization As-Is, Weatherization Post, Public Housing As-Is, and Public Housing Post.</li>
+<li>Has the floor area of the garage as an input, clearly separated from the entry of the living space floor area.</li>
+<li>Eliminates the warning about a differing number of perimeter and center below-grade floor components, because such a situation frequently occurs.</li>
+<li>Changes to the Improvement Options Report include:<ol>
+<li>For Weatherization rating types, includes estimated improvement costs but still hides costs for other rating types.</li>
+<li>Indicates that Increased Rating Points are only estimates, with exact values determined by a Post rating.</li>
+<li>If the same Boilerplate item is included multiple times in a report, it is only printed once; subsequent instances of the boilerplate item refer back to the first printed instance.</li>
+</ol>
+</li>
+<li>The 3/24/2010 Energy Library is included in the release and is updated as follows:<ol>
+<li>Fuel costs and utility rates are updated, including their projected price escalation factors.</li>
+<li>The R-values of garage doors (and replacement door improvements) are reduced to comport with test data that measures the performance of the entire door.</li>
+<li>Adds DHW system options for a sidearm tank off of a wood boiler.</li>
+<li>Makes the Wood Stove replacement improvements consistent with the wood stove efficiencies in the Energy Library. Allows for three different replacements: non-catalytic stove, catalytic stove, and pellet stove.</li>
+<li>Includes a more complete set of heat distribution options for Ground-Source heat pumps and electric resistance heat.</li>
+</ol>
+</li>
+<li>Various Bug Fixes:<ol>
+<li>Eliminates an AkWarm error that was caused by blanking out entries in the Floor Area Calculator.</li>
+<li>Corrects an error where AkWarm, in certain situations, would erroneously suggest to use an older Energy Library when a file was being opened. The correct Energy Library is now suggested or automatically used.</li>
+<li>Until now, changing the fuel type of the dryer or cooking range has affected the Energy Rating score. For ratings using the 3/24/2010 Energy Library or later, the fuel type of the dryer or range will not affect the rating score.</li>
+</ol>
+</li>
+</ol>
+<h4>Version 2.0.5 (Sep 23, 2009)</h4>
+<ol>
+<li>A substantial upgrade to the shape-based Area Calculator was done. The new calculator can model any shape with straight sides (e.g. octagons), calculating both perimeter and center areas. The shape is now stored with the shell component it is associated with so that future edits to the shape can be made.</li>
+<li>When an old file is opened that used a prior Energy Library, AkWarm stops to ask if the user wants to continue to use the original Energy Library with the rating or wants to use the most current library. This feature replaces the "Switch Library" feature that was in the prior version of AkWarm. Note that only historical AkWarm 2 Energy Libraries are available for use; if the rating was done with an AkWarm 1 library, the best matching AkWarm 2 library is used if the user wants to continue to use a historical library.</li>
+<li>A report is now available on the File menu that prints all of the user-entered inputs to the AkWarm rating.</li>
+<li>Various changes to the Improvement Options Report were made including:<ol>
+<li>For ratings performed with the current Energy Library, estimated improvement cost information is no longer shown, due to the large uncertainty in the cost estimates. If a rating is performed with a library of version 4/10/2009 or earlier, the cost estimates are shown in order to closely replicate the Improvement Options Report that was originally presented to the homeowner.</li>
+<li>An explanatory note was added to explain that the points shown on the report for each measure assume that all prior measures are completed.</li>
+<li>All references to brand names were removed from the report.</li>
+</ol>
+</li>
+<li>A new Energy Library, version 9/5/2009, was produced including updated fuel and utility costs, more insulation levels for some shell improvements, and more accurate data for improvements that add insulation to attics.</li>
+<li>The Design Heat Loss calculation results on the Energy Flows report are described more accurately, and the estimate of Heating System <em>Input</em> size was removed. The design heat loss of the conditioned space is still calculated; only the estimate of the input rating of the heating system has been removed.</li>
+<li>The Rating Type (e.g. As-Is, Post Improvement) is now printed in the footer of the Rating Certificate.</li>
+<li>Dates when the AkWarm file was created, last saved, and last saved as Official are included in the AkWarm file for use by data archiving systems.</li>
+<li>Miscellaneous Bug Fixes including:<ol>
+<li>Corrected bug that made it impossible to enter in an insulation thickness less than the cavity thickness.</li>
+<li>Fixed bug that disabled Save as Official button on some computers for homes that have no improvments selected.</li>
+<li>Fixed bug that affected points and energy use for the perimeter section of slab-on-grade components where Insulation Quality was marked worse than OK.</li>
+<li>Allowed the entry of a rise in excess of the run in the Slope calculator.</li>
+<li>Cleaned out control characters from the Notes field of old AkWarm files, which previously created an error in AkWarm 2.</li>
+<li>Fixed the shell area to floor area warning calculation to more accurately account for garage floor area.</li>
+<li>Fixed a bug in the control that is used to enter numbers.</li>
+</ol>
+</li>
+</ol>
+<h4>Version 2.0.4 (Apr 10, 2009)</h4>
+<ol>
+<li>Made the flat-to-sloped converter available for Ceiling with Attic shell components.</li>
+<li>Changed flat-to-sloped calculator to apply slope multiplier to all lines in an area expression and apply multiplier to all parts of complicated expressions.</li>
+<li>Fixed a problem with the shape-based floor/ceiling area calculator that was causing measurements to be rounded to nearest integer.</li>
+<li>Installed three page Data Collection Worksheet during the AkWarm installation process. The worksheet is available on the "Start, Programs, AkWarm" menu.</li>
+<li>Enabled Right-Click Copy, Cut and Paste menu for the Improvement Notes.</li>
+<li>Created the 04/10/2009 Energy Library, which eliminates the R-14 door recommendation when the exterior door replacement improvement is analyzed.</li>
+<li>Added a Warning explaining that changing the Name of a shell component after it has been initially set will not affect the Improvements report. Instead, the entry for the Location of the improvement must be changed.</li>
+<li>Changed destination of GAMA link to go to the GAMA web site instead of directly to the AHRI web site, which has the product efficiency database.</li>
+<li>Implemented error checking that requires an entry for the equipment type of the Primary Heating System and requires an entry for the construction type of an Other Wall.</li>
+<li>Miscellaneous Bug Fixes, including:<ul>
+<li>Fixed a problem with the command that activates Microsoft Word after the Improvements Report is created.</li>
+<li>Fixed a problem where blanking out the average ceiling height did not actually affect the entry.</li>
+<li>Fixed a Null Reference Error that would sometimes occur when creating a new shell component.</li>
+<li>Eliminated an error that occurred when clicking on column headings of the Heater Upgrade grid when there were no upgrades in the grid.</li>
+</ul>
+</li>
+<li>Added the ability to view Version and Debug information by using the Ctrl-D keyboard shortcut.</li>
+</ol>
+<h4>Version 2.0.3 (Mar 20, 2009)</h4>
+<ol>
+<li>Removed requirement for a User ID entry when saving official ratings.</li>
+<li>In some scenarios where there were no changes to file and a "Save as Official" was done, the rating was not changed to Official. This bug was fixed.</li>
+</ol>
+<h4>Version 2.0.2 (Mar 19, 2009)</h4>
+<p>Original Release</p>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+    <aside class="large-3 columns">
+        <h5 class="sidebar-title">Links</h5>
+        <ul class="side-nav">
+            <li><a href="http://python.org/">Python Programming Language</a></li>
+            <li><a href="http://pandas.pydata.org/">Pandas Data Analysis</a></li>
+            <li><a href="http://www.raspberrypi.org/">Raspberry Pi $35 Linux Computer</a></li>
+            <li><a href="http://www.adafruit.com/">Adafruit Electronic Products</a></li>
+            <li><a href="https://www.sparkfun.com/">Sparkfun Electronic Products</a></li>
+            <li><a href="https://ride1up.com/?wpam_id=69">Ride1Up Electric Bicycles</a></li>
+        </ul>
+        <h5 class="sidebar-title">Articles</h5>
+        <ul class="side-nav">
+            <li><a href="http://analysisnorth.com/archives.html">Archives</a>
+            <li><a href="http://analysisnorth.com/tags.html">Tags</a>
+        </ul>
+
+        <h5 class="sidebar-title">Networking</h5>
+        <ul class="side-nav">
+            <li><a href="http://www.linkedin.com/pub/alan-mitchell/59/759/a80">Alan Mitchell on LinkedIn</a></li>
+            <li><a href="https://github.com/alanmitchell">Alan Mitchell on GitHub</a></li>
+        </ul>
+
+    </aside> <!-- End Sidebar -->
+
+</div> <!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+<footer class="row">
+    <div class="large-12 columns">
+        <hr />
+        <div class="row">
+            <div class="large-6 columns">
+              <p>&copy; 2014 Analysis North.  Created using <a href="http://getpelican.com/">Pelican</a>.</p>
+            </div>
+            </div>
+    </div>
+</footer>
