@@ -1,7 +1,8 @@
 # an-website
 Analysis North Website
 
-Edit files in the `content` directory. To build the website, run the command
+Edit files in the `content` directory. To build the website, make sure the Python 
+packages `pelican` and `Markdown` are installed, and run the command:
 
     pelican
 

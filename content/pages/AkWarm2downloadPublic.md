@@ -13,7 +13,7 @@ versions.](/AkWarm/AkWarm2changeLog.html)
 
 <div class="panel">
 
-<center><a href="/AkWarm/AkWarm_2.10.0_setup.exe" class="button primary medium radius">
+<center><a href="https://ahfc.bmon.org/AkWarm/bin/AkWarm_2.10.0_setup.exe" class="button primary medium radius">
 Download AkWarm 2.10.0 (25 MB)</a></center>
 
 <p>This program contains both the AkWarm Residential Rating software and the AkWarm

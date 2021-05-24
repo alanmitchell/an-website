@@ -14,7 +14,7 @@ versions.](/AkWarm/AkWarm2changeLog.html)
 
 <div class="panel">
 
-<center><a href="/AkWarm/AkWarm_2.10.0_setup.exe" class="button primary medium radius">
+<center><a href="https://ahfc.bmon.org/AkWarm/bin/AkWarm_2.10.0_setup.exe" class="button primary medium radius">
 Download AkWarm 2.10.0 (25 MB)</a></center>
 
 <p>This program contains both the AkWarm Residential Rating software and the AkWarm
@@ -67,29 +67,29 @@ Please see the [What's New in AkWarm 2](/AkWarm/AkWarm2_new.html)
 page for descriptions of the new features present in each of these AkWarm
 versions. 
 
-* [Version 2.8.0 Beta (Sepember 7, 2017) and Final (September 27, 2017)](http://analysisnorth.com/AkWarm/AkWarm_2.8.0_setup.exe)
-* [Version 2.7.1 (March 28, 2017)](http://analysisnorth.com/AkWarm/AkWarm_2.7.1_setup.exe)
-* [Version 2.6.1 (August 12, 2016)](http://analysisnorth.com/AkWarm/AkWarm_2.6.1_setup.exe)
-* [Version 2.5.3 (March 10, 2016)](http://analysisnorth.com/AkWarm/AkWarm_2.5.3_setup.exe)
-* [Version 2.4.1 (April 1, 2015)](http://analysisnorth.com/AkWarm/AkWarm_2.4.1_setup.exe)
-* [Version 2.3.3.1 (December 17, 2014)](http://analysisnorth.com/AkWarm/AkWarm2.3.3.1.exe)
-* [Version 2.3.3.0 (December 9, 2014)](http://analysisnorth.com/AkWarm/AkWarm2.3.3.0.exe)
-* [Version 2.3.2.1 (April 16, 2014)](http://analysisnorth.com/AkWarm/AkWarm2.3.2.1.exe)
-* [Version 2.3.1.0 (September 24, 2013)](http://analysisnorth.com/AkWarm/AkWarm2.3.1.0.exe)
-* [Version 2.3.0.1 (July 1, 2013)](http://analysisnorth.com/AkWarm/AkWarm2.3.0.1.exe)
-* [Version 2.2.0.4 (August 14, 2012)](http://analysisnorth.com/AkWarm/AkWarm2.2.0.4.exe)
-* [Version 2.2.0.3 (May 29, 2012)](http://analysisnorth.com/AkWarm/AkWarm2.2.0.3.exe)
-* [Version 2.1.4 (February 27, 2012)](http://analysisnorth.com/AkWarm/AkWarm2.1.4.2.exe)
-* [Version 2.1.3 (December 21, 2011)](http://analysisnorth.com/AkWarm/AkWarm2.1.3.2.exe)
-* [Version 2.1.2 (September 7, 2011)](http://analysisnorth.com/AkWarm/AkWarm2.1.2.1.exe)
-* [Version 2.1.1 (August 1, 2011)](http://analysisnorth.com/AkWarm/AkWarm2.1.1.3.exe)
-* [Version 2.1.0 (July 11, 2011)](http://analysisnorth.com/AkWarm/AkWarm2.1.0.1.exe)
-* [Version 2.0.6 (Apr 6, 2010)](http://analysisnorth.com/AkWarm/AkWarm2.0.6.exe)
-* [Version 2.0.5 (Sep 23, 2009)](http://analysisnorth.com/AkWarm/AkWarm2.0.5.exe)
-* [Version 2.0.4 (Apr 10, 2009)](http://analysisnorth.com/AkWarm/AkWarm2.0.4.exe)
-* [Version 2.0.3 (Mar 20, 2009)](http://analysisnorth.com/AkWarm/AkWarm2.0.3.exe)
+* [Version 2.8.0 Beta (Sepember 7, 2017) and Final (September 27, 2017)](https://ahfc.bmon.org/AkWarm/bin/AkWarm_2.8.0_setup.exe)
+* [Version 2.7.1 (March 28, 2017)](https://ahfc.bmon.org/AkWarm/bin/AkWarm_2.7.1_setup.exe)
+* [Version 2.6.1 (August 12, 2016)](https://ahfc.bmon.org/AkWarm/bin/AkWarm_2.6.1_setup.exe)
+* [Version 2.5.3 (March 10, 2016)](https://ahfc.bmon.org/AkWarm/bin/AkWarm_2.5.3_setup.exe)
+* [Version 2.4.1 (April 1, 2015)](https://ahfc.bmon.org/AkWarm/bin/AkWarm_2.4.1_setup.exe)
+* [Version 2.3.3.1 (December 17, 2014)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.3.3.1.exe)
+* [Version 2.3.3.0 (December 9, 2014)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.3.3.0.exe)
+* [Version 2.3.2.1 (April 16, 2014)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.3.2.1.exe)
+* [Version 2.3.1.0 (September 24, 2013)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.3.1.0.exe)
+* [Version 2.3.0.1 (July 1, 2013)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.3.0.1.exe)
+* [Version 2.2.0.4 (August 14, 2012)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.2.0.4.exe)
+* [Version 2.2.0.3 (May 29, 2012)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.2.0.3.exe)
+* [Version 2.1.4 (February 27, 2012)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.1.4.2.exe)
+* [Version 2.1.3 (December 21, 2011)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.1.3.2.exe)
+* [Version 2.1.2 (September 7, 2011)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.1.2.1.exe)
+* [Version 2.1.1 (August 1, 2011)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.1.1.3.exe)
+* [Version 2.1.0 (July 11, 2011)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.1.0.1.exe)
+* [Version 2.0.6 (Apr 6, 2010)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.0.6.exe)
+* [Version 2.0.5 (Sep 23, 2009)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.0.5.exe)
+* [Version 2.0.4 (Apr 10, 2009)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.0.4.exe)
+* [Version 2.0.3 (Mar 20, 2009)](https://ahfc.bmon.org/AkWarm/bin/AkWarm2.0.3.exe)
 
-Here is the link to download the original [AkWarm 1.03d release](/AkWarm/AkWarm1.03d.exe).
+Here is the link to download the original [AkWarm 1.03d release](https://ahfc.bmon.org/AkWarm/bin/AkWarm1.03d.exe).
 
 ----
 
