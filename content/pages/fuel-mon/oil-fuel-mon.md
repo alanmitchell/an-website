@@ -1,5 +1,4 @@
 Title: Low Cost Fuel Oil Monitoring
-URL: /fuel-mon/oil-fuel-mon.html
 Save_As: fuel-mon/oil-fuel-mon.html
 
 Loeffler Engineering and Analysis North, with funding from the Alaska Housing Finance Corporation,
