@@ -3,10 +3,10 @@ URL: /AkWarm/AkWarm2downloadPublic.html
 Save_As: AkWarm/AkWarm2downloadPublic.html
 
 This is a demonstration version of the AKWarm 2 energy analysis and home energy rating software, owned by the 
-[Alaska Housing Finance Corporation](http://www.ahfc.us/efficiency/learn-and-diy/research-information-center/ric-links-interest/akwarm-energy-rating-software/).
+[Alaska Housing Finance Corporation](https://www.ahfc.us/efficiency/learn-and-diy/research-information-center/ric-links-interest/akwarm-energy-rating-software/).
 It is not for official ratings, nor is there any technical support for this product. Results calculated by the software may vary from official ratings depending upon user inputs. 
 More information concerning the software can be 
-[found here](http://www.ahfc.us/efficiency/learn-and-diy/research-information-center/ric-links-interest/akwarm-energy-rating-software/). 
+[found here](https://www.ahfc.us/efficiency/learn-and-diy/research-information-center/ric-links-interest/akwarm-energy-rating-software/). 
 
 Here is a [Detailed List of the Changes implemented in each of the AkWarm 2
 versions.](/AkWarm/AkWarm2changeLog.html)
@@ -29,7 +29,7 @@ Commercial Audit software.</p>
     If you are using Windows XP, your installation must have at least
     Service Pack 2 installed. To install the most recent Windows XP
     Service pack, go to the 
-    [Windows XP Service Pack 3 web page.](http://support.microsoft.com/kb/322389)
+    [Windows XP Service Pack 3 web page.](https://support.microsoft.com/kb/322389)
 -   Click the button above to download the setup
     program for the AkWarm 2 software. After clicking the button you may
     be able to directly "Run" the setup program or you may be forced to

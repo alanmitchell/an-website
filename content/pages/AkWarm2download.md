@@ -5,9 +5,9 @@ Save_As: AkWarm/AkWarm2download.html
 This is the page that allows you to download and install the AkWarm 2
 Home Energy Rating software, owned by the Alaska Housing Finance
 Corporation.  Analysis North is on contract to the [Cold Climate Housing
-Research Center](http://www.cchrc.org/) to upgrade and maintain AkWarm. 
+Research Center](https://www.cchrc.org/) to upgrade and maintain AkWarm. 
 More information concerning the software can be 
-[found here](http://www.ahfc.us/efficiency/learn-and-diy/research-information-center/ric-links-interest/akwarm-energy-rating-software/). 
+[found here](https://www.ahfc.us/efficiency/learn-and-diy/research-information-center/ric-links-interest/akwarm-energy-rating-software/). 
 
 Here is a [Detailed List of the Changes implemented in each of the AkWarm 2
 versions.](/AkWarm/AkWarm2changeLog.html)
@@ -30,7 +30,7 @@ Commercial Audit software.</p>
     If you are using Windows XP, your installation must have at least
     Service Pack 2 installed. To install the most recent Windows XP
     Service pack, go to the 
-    [Windows XP Service Pack 3 web page.](http://support.microsoft.com/kb/322389)
+    [Windows XP Service Pack 3 web page.](https://support.microsoft.com/kb/322389)
 -   Click the button above to download the setup
     program for the AkWarm 2 software. After clicking the button you may
     be able to directly "Run" the setup program or you may be forced to

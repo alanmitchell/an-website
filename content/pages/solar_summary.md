@@ -121,7 +121,7 @@ date on the horizontal axis.
 ---
 
 <p>
-Powered by: <a href="http://enphase.com"><img alt="Enphase Logo" src="images/Powered_By_Enphase_Logo.png" width="200"></a>
+Powered by: <a href="https://enphase.com"><img alt="Enphase Logo" src="images/Powered_By_Enphase_Logo.png" width="200"></a>
 </p>
 Solar data is acquired through use of the Enphase API (application programming interface).  
 All data analysis and graphing is custom programming done by Analyis North and is available at 

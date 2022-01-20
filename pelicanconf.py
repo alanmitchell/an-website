@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Analysis North'
 SITENAME = u'Analysis North'
-SITEURL = 'http://analysisnorth.com'
+SITEURL = 'https://analysisnorth.com'
 
 DISQUS_SITENAME = 'analysisnorthblog'
 
@@ -36,16 +36,16 @@ MENUITEMS = ( ('Home', '/'),
             )
 
 # Blogroll
-LINKS =  (('Python Programming Language', 'http://python.org/'),
-          ('Pandas Data Analysis', 'http://pandas.pydata.org/'),
-          ('Raspberry Pi $35 Linux Computer', 'http://www.raspberrypi.org/'),
-          ('Adafruit Electronic Products','http://www.adafruit.com/'), 
+LINKS =  (('Python Programming Language', 'https://python.org/'),
+          ('Pandas Data Analysis', 'https://pandas.pydata.org/'),
+          ('Raspberry Pi $35 Linux Computer', 'https://www.raspberrypi.org/'),
+          ('Adafruit Electronic Products','https://www.adafruit.com/'), 
           ('Sparkfun Electronic Products', 'https://www.sparkfun.com/'),
           ('Ride1Up Electric Bicycles', 'https://ride1up.com/?wpam_id=69'),
          )
 
 # Social widget
-SOCIAL = (('Alan Mitchell on LinkedIn', 'http://www.linkedin.com/pub/alan-mitchell/59/759/a80'),
+SOCIAL = (('Alan Mitchell on LinkedIn', 'https://www.linkedin.com/pub/alan-mitchell/59/759/a80'),
           ('Alan Mitchell on GitHub', 'https://github.com/alanmitchell'),
           )
 
