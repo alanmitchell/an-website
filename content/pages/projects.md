@@ -5,6 +5,14 @@ Template: page_no_title
 
 ---
 
+### Alaska Railbelt Renewable Portfolio Standard (RPS)
+
+[This page](/rps-econ.html) summarizes a preliminary Benefit/Cost study done by Analysis North
+addressing one possible scenario for achieving 80% renewable electricity generation
+in the Alaskan Railbelt. 
+
+---
+
 ### 2018 Alaska Mini-Split Heat Pump Study
 
 This Study addressed the performance and financial impact of using 
