@@ -17,3 +17,6 @@ Clicking the image below will show three slides summarizing the results.
 
 Here is the <a href="https://docs.google.com/spreadsheets/d/1MsCqUdsZOQC-69wlfkDb8eZ7DK-yYfbctUqkUwWfTOU" target="_blank">
 Google Sheets model</a> that performs the economic analysis.
+
+Chris Rose of the Renewable Energy Alaska Project presented
+<a href="http://www.akleg.gov/basis/get_documents.asp?session=32&docid=80859" target="_blank">Testimony to the Alaska State House Special Committee on Energy</a> on March 10, 2022, which included the Analysis North economic analysis.
