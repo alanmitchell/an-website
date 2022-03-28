@@ -11,9 +11,9 @@ primarily wind and solar) and performed a very preliminary economic benefit/cost
 favorable (benefits were two times the costs), indicating that a more thorough economic analysis is
 clearly justified.
 
-Clicking the image below will show three slides summarizing the results.
+Clicking the image below will show a few slides summarizing the analysis.
 
-<a href="https://docs.google.com/presentation/d/14XXfjTvd37hvjBPr7BhrbW16f6bcrXeIUTg2fbfh780" target="_blank"><img src="/images/rps-slides.png" alt="RPS Econ Analysis Slides" width="350"/></a>
+<a href="https://docs.google.com/presentation/d/1AfdjeJWoHq57pgler2BPzQHa81FhWlFGyFAz26sVlqc" target="_blank"><img src="/images/rps-slides.png" alt="RPS Econ Analysis Slides" width="350"/></a>
 
 Here is the <a href="https://docs.google.com/spreadsheets/d/1MsCqUdsZOQC-69wlfkDb8eZ7DK-yYfbctUqkUwWfTOU" target="_blank">
 Google Sheets model</a> that performs the economic analysis.
