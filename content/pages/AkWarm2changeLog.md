@@ -4,6 +4,10 @@ Save_As: AkWarm/AkWarm2changeLog.html
 
 This page describes the changes that have occurred in the various releases of
 AkWarm 2. The versions are listed from the most recent to the oldest.
+#### Version 2.11.0 (October 31, 2022)
+1. Miscellaneous Bug Fixes
+2. New "Supplemental - Pre" and "Supplemental - Post" rating types.
+
 
 #### Version 2.10.0 Beta (March 27, 2019) and Final (April 16, 2019)
 1. New Energy Library.

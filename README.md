@@ -14,7 +14,7 @@ is set:
 
     export WEBSITE_RSYNC_DEST="<user>@<website host>:<destination directory ending w/ slash>"
 
-In my case, the last part of the destination directory is `static_cgi/`.  Then run:
+In my case, the destination directory is `web@analysisnorth.com:/home/web/html/`.  Then run:
 
     ./upload_site.sh
 
