@@ -4,8 +4,13 @@ Save_As: AkWarm/AkWarm2changeLog.html
 
 This page describes the changes that have occurred in the various releases of
 AkWarm 2. The versions are listed from the most recent to the oldest.
-#### Version 2.11.0 (October 31, 2022)
-1. Miscellaneous Bug Fixes
+
+#### Version 2.12.0 (April 26, 2023)
+1. Incorporates Social Cost of Carbon for Weatherization Ratings.
+2. Miscellaneous Bug Fixes.
+
+#### Version 2.11.0 (November 25, 2022)
+1. Miscellaneous Bug Fixes.
 2. New "Supplemental - Pre" and "Supplemental - Post" rating types.
 
 
