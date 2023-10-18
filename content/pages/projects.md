@@ -43,7 +43,7 @@ installing a mini-split heat pump in a home in Alaska.  Community-specific
 climate, fuel cost, and electric utility rate information is available in the 
 Calculator for most communities in Alaska.  Try out the Calculator here:
 
-[Alaska Mini-Split Heat Pump Calculator](https://heatpump.cf)
+[Alaska Mini-Split Heat Pump Calculator](https://heatpump.analysisnorth.com)
 
 As well as work by Alan Mitchell of Analysis North, this calculator benefited extensively
 from contributions by Phil Kaluza of Arctic Energy Systems, Dustin Madden and Kristen Thomas
