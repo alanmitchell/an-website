@@ -30,7 +30,7 @@ MENUITEMS = ( ('Home', '/'),
               ('Services', '/pages/services.html'),
               ('Projects', '/pages/projects.html'),
               ('Articles', '/category/articles.html'),
-              ('Solar Data', '/enphase/solar_summary.html'),
+              ('Solar Data', '/docs/mtn-lake-solar/'),
               ('About', '/pages/about.html'),
               ('Contact', '/pages/contact.html'),
             )
