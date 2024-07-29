@@ -5,6 +5,10 @@ Save_As: AkWarm/AkWarm2changeLog.html
 This page describes the changes that have occurred in the various releases of
 AkWarm 2. The versions are listed from the most recent to the oldest.
 
+#### Version 2.13.0 (July 27, 2024)
+1. Updated hpXML export for use with HouseRater software.
+2. Miscellaneous Bug Fixes.
+
 #### Version 2.12.0 (April 26, 2023)
 1. Incorporates Social Cost of Carbon for Weatherization Ratings.
 2. Miscellaneous Bug Fixes.
