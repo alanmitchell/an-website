@@ -5,6 +5,13 @@ Save_As: AkWarm/AkWarm2changeLog.html
 This page describes the changes that have occurred in the various releases of
 AkWarm 2. The versions are listed from the most recent to the oldest.
 
+#### Version 2.14.0 (January 1, 2025)
+1. RDI's changes to support the "New Construction" rebate program.
+2. Updates to the rating certificate.
+3. Updates to support the NREL tests.
+
+The installer is not 'signed', so you will get a Microsoft warning about it coming from an unknown publisher when you run the installation. 
+
 #### Version 2.13.0 (July 27, 2024)
 1. Updated hpXML export for use with HouseRater software.
 2. Miscellaneous Bug Fixes.
