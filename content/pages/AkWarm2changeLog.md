@@ -5,6 +5,14 @@ Save_As: AkWarm/AkWarm2changeLog.html
 This page describes the changes that have occurred in the various releases of
 AkWarm 2. The versions are listed from the most recent to the oldest.
 
+#### Version 2.16.0 (April 29, 2025)
+1. Rating Certificate changes.
+
+#### Version 2.15.0 (February 14, 2025)
+1. New "Incidental Repair Measures" entry for Weatherization audits.
+2. Fix display issues that we causing some parts of the inputs screens to be truncated.
+3. Fix phone number formatting and validation.
+
 #### Version 2.14.0 (January 1, 2025)
 1. RDI's changes to support the "New Construction" rebate program.
 2. Updates to the rating certificate.
