@@ -96,5 +96,5 @@ Here is the link to download the original [AkWarm 1.03d release](https://ahfc.bm
 
 ----
 
-Please report any comments regarding the software to Michael Spencer at
+Please report any comments regarding the software to Kevin Blackwell at
 AHFC.
