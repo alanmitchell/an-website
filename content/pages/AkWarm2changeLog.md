@@ -5,6 +5,10 @@ Save_As: AkWarm/AkWarm2changeLog.html
 This page describes the changes that have occurred in the various releases of
 AkWarm 2. The versions are listed from the most recent to the oldest.
 
+#### Version 2.17.0 (August 26, 2025)
+1. Removed the use of 'Social Cost of Carbon' from Weatherization improvement cost effectiveness calculations and removed all mentions from Weatherization reports.
+2. New 'Actual Consumption' inputs to support NREL's review of the BPI-2400 implementation.
+
 #### Version 2.16.0 (April 29, 2025)
 1. Rating Certificate changes.
 
